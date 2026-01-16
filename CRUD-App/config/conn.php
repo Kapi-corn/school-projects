@@ -1,0 +1,11 @@
+<?php
+
+$host = 'localhost';
+$user = 'root';
+$password = '';
+$db = 'peserta_db';
+
+$conn = mysqli_connect($host, $user, $password, $db);
+if (!$conn) {
+    die("Error: " . mysqli_connect_error());
+}
